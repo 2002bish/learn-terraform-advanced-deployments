@@ -1,10 +1,8 @@
-# Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: MPL-2.0
 
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAZDBZ37E4B6VFCY6Y"
-  secret_key = "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"
+  access_key = "My-access-key"
+  secret_key = "My-seceret-key"
 }
 
 data "aws_availability_zones" "available" {
